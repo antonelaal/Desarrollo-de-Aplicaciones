@@ -3,8 +3,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-color: #e8ecf1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
 form {
-    margin: 0 auto;
+    background-color: white;
     width: 400px;
     padding: 1em;
     border: 1px solid #CCC;
@@ -22,17 +35,18 @@ form li + li {
 }
 
 label {
-    display: inline-block;
-    width: 150px;
-    text-align: right;
-    margin-right: 8px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 input {
-    width: 200px;
-    padding: 5px;
-    border: 1px solid #999;
-    border-radius: 4px;
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    background-color: #f7fafc;
+    color: #2d3748;
 }
 
 input:focus {
@@ -40,8 +54,19 @@ input:focus {
     outline: none;
 }
 
+.error-message {
+    display: none;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+input:invalid + .error-message {
+    display: block;
+}
+
+
 .button {
-    padding-left: 158px;
+    text-align: center;
 }
 
 button {
