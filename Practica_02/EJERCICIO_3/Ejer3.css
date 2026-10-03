@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f0eb;
+    color: #1e1e2a;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.page {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.header {
+    border-bottom: 3px solid #8b1e2b;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+.header h1 small {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #555;
+    margin-left: 8px;
+}
+
+.nav {
+    background-color: #f0ebe3;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1e1e2a;
+    font-weight: 600;
+    padding: 4px 0;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.nav a:hover {
+    border-bottom-color: #8b1e2b;
+    color: #8b1e2b;
+}
+
+.bloque {
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.bloque h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bloque h3 {
+    font-size: 1.2rem;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    color: #3d2e24;
+}
+
+.bloque p {
+    margin-bottom: 10px;
+}
+
+.turismo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.turismo-item {
+    background-color: #f5f0eb;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border-left: 3px solid #8b1e2b;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.turismo-item:hover {
+    background-color: #e8e0d8;
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.comida-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.comida-item {
+    background-color: #f5f0eb;
+    padding: 16px 14px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.comida-item h4 {
+    color: #8b1e2b;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.comida-item p {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 18px;
+    border-top: 2px dashed #d4c5b5;
+    text-align: center;
+    color: #5a4a3a;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    .turismo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comida-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 480px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .turismo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comida-grid {
+        grid-template-columns: 1fr;
+    }
+}

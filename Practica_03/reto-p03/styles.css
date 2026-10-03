@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b1020;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.logo img {
+    width: 80px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 70px 20px;
+}
+
+header {
+    background-color: #0b1020;
+    border-bottom: 1px solid #252b45;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 18px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    color: #8b5cf6;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8px;
+
+    background-color: #6366f1;
+    color: #ffffff;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #8b5cf6;
+    transform: translateY(-3px);
+}
+
+#hero {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero-content > span,
+.section-heading > span,
+.cta-content > span {
+    color: #a78bfa;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-content h1 {
+    margin: 15px 0;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    margin-bottom: 25px;
+    color: #aeb7d0;
+}
+
+.hero-card {
+    padding: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #172554,
+        #312e81
+    );
+
+    border: 1px solid #4f46e5;
+    border-radius: 16px;
+}
+
+.hero-card p {
+    color: #c7d2fe;
+}
+
+.hero-card img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.hero-progress {
+    margin-top: 20px;
+}
+
+.hero-progress p,
+.hero-progress span {
+    color: #eeeaff;
+}
+
+.hero-card strong {
+    display: block;
+    margin: 10px 0;
+
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.hero-card span {
+    color: #a5b4fc;
+}
+
+
+.section-heading {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    margin: 12px 0;
+    font-size: 2rem;
+}
+
+.section-heading p {
+    color: #aeb7d0;
+}
+
+
+#servicios {
+    background-color: #10162a;
+}
+
+.services-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(230px, 1fr)
+    );
+
+    gap: 20px;
+}
+
+.service-card {
+    padding: 25px;
+
+    background-color: #151c35;
+    border: 1px solid #293253;
+    border-radius: 14px;
+
+    transition: 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: #6366f1;
+}
+
+.service-number {
+    color: #8b5cf6;
+    font-weight: bold;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+}
+
+.service-card p {
+    color: #aeb7d0;
+}
+
+.projects-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(240px, 1fr)
+    );
+
+    gap: 20px;
+}
+
+.project-card {
+    padding: 25px;
+
+    background-color: #151c35;
+    border: 1px solid #293253;
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    transition: 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.project-card > span {
+    color: #a78bfa;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.project-card p {
+    color: #aeb7d0;
+}
+
+.project-card strong {
+    color: #c7d2fe;
+}
+
+#cursos {
+    background-color: #10162a;
+}
+
+.courses-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(300px, 1fr)
+    );
+    gap: 15px;
+}
+
+.course-card {
+    padding: 20px;
+
+    background-color: #151c35;
+    border: 1px solid #293253;
+    border-radius: 12px;
+
+    transition: 0.2s;
+}
+
+.course-card:hover {
+    transform: translateY(-4px);
+    border-color: #6366f1;
+}
+
+.course-card h3 {
+    color: #a78bfa;
+}
+
+.course-card p {
+    color: #aeb7d0;
+    font-size: 0.9rem;
+}
+
+.reviews-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(250px, 1fr)
+    );
+
+    gap: 20px;
+}
+
+.review-card {
+    padding: 25px;
+
+    background-color: #151c35;
+    border: 1px solid #293253;
+    border-radius: 14px;
+}
+
+.review-card > p {
+    color: #c7d2fe;
+    margin-bottom: 20px;
+}
+
+.review-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-author strong {
+    color: #a78bfa;
+}
+
+.review-author span {
+    color: #7885a8;
+    font-size: 0.85rem;
+}
+
+#cta {
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #312e81,
+        #4c1d95
+    );
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.cta-content h2 {
+    margin: 15px 0;
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+.cta-content p {
+    margin-bottom: 25px;
+    color: #ddd6fe;
+}
+
+footer {
+    padding: 40px 20px;
+
+    background-color: #070b16;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-brand {
+    max-width: 350px;
+}
+
+.footer-brand p {
+    margin-top: 10px;
+    color: #7885a8;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid #252b45;
+
+    color: #7885a8;
+    font-size: 0.85rem;
+}
+
+@media (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    nav ul a {
+        color: #c7d2fe;
+    }
+
+    nav ul a:hover {
+        color: #a78bfa;
+    }
+
+    #hero {
+        grid-template-columns: 1.4fr 0.6fr;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom {
+        width: 100%;
+    }
+}
