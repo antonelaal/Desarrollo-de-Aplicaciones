@@ -5,7 +5,6 @@
 ![Curso](https://img.shields.io/badge/Curso-Desarrollo%20de%20Aplicaciones-blue)
 ![Semestre](https://img.shields.io/badge/Semestre-Sexto-green)
 ![Tipo](https://img.shields.io/badge/Tipo-Teórico%20Práctico-orange)
-![Docente](https://img.shields.io/badge/Docente-Ana%20Luc%C3%ADa%20Velazco%20Meza-purple)
 
 </div>
 
@@ -70,11 +69,6 @@ Las tecnologías específicas serán indicadas dentro de cada laboratorio. Entre
 - Lenguajes: **HTML, CSS, JavaScript**
 - Frameworks: **React**
 
----
-
-## Docente
-
-**Ana Lucía Velazco Meza**
 
 ---
 
