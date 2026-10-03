@@ -1,4 +1,4 @@
-# 📚 Desarrollo de Aplicaciones — Repositorio de Laboratorios Prácticos
+# Desarrollo de Aplicaciones - Repositorio de Laboratorios Prácticos
 
 <div align="center">
 
@@ -11,19 +11,14 @@
 
 ---
 
-## 📖 Descripción del Curso
+## Descripción del Curso
 
 Este repositorio contiene **exclusivamente el material práctico** del curso **Desarrollo de Aplicaciones**, correspondiente al área de **formación básica profesional** de la **Escuela Profesional de Ingeniería de Sistemas**, ubicado en el **sexto semestre** del Plan de Estudios.
 
 El curso es de carácter **teórico-práctico**, y tiene como finalidad principal preparar a los estudiantes en la **aplicación y uso de conceptos, métodos y técnicas para el Desarrollo de Aplicaciones Web**, tomando como base fundamental:
 
 - 🌐 Arquitectura Web
-- 🏗️ Arquitectura Modelo-Vista-Controlador (MVC)
 - 🎨 Diseño de la presentación
-- 🖥️ Herramientas del servidor
-- 💾 Almacenamiento de datos
-- 🔐 Aspectos de seguridad
-- ⚙️ Configuración de servidores de aplicaciones
 - 🧩 Frameworks y lenguajes de programación
 - 🔗 Desarrollo e integración Web
 
@@ -31,7 +26,7 @@ A lo largo del curso se desarrollan **problemas de aplicación en ingeniería**,
 
 ---
 
-## 🗂️ Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 📦 Desarrollo-de-Aplicaciones
@@ -51,7 +46,7 @@ A lo largo del curso se desarrollan **problemas de aplicación en ingeniería**,
 
 ---
 
-## 🧪 Contenido Práctico
+## Contenido Práctico
 
 En este repositorio se irán subiendo **únicamente los laboratorios y prácticas** desarrollados durante el semestre. Los temas abordados incluyen, entre otros:
 
@@ -68,7 +63,7 @@ En este repositorio se irán subiendo **únicamente los laboratorios y práctica
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 Las tecnologías específicas serán indicadas dentro de cada laboratorio. Entre las comúnmente utilizadas se encuentran:
 
@@ -77,14 +72,14 @@ Las tecnologías específicas serán indicadas dentro de cada laboratorio. Entre
 
 ---
 
-## 👩‍🏫 Docente
+## Docente
 
 **Ana Lucía Velazco Meza**
 
 ---
 
 
-## 📄 Licencia
+## Licencia
 
 Este repositorio es de uso **académico** y pertenece a la **Escuela Profesional de Ingeniería de Sistemas**. Su contenido es exclusivamente con fines educativos.
 
